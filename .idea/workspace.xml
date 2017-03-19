@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eff8c43b-c5db-40b8-ad2d-e5f18432baf7" name="Default" comment="Add Solution AdjacentElementsProduct">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaFights/shapeArea/ShapeArea.java" />
+    <list default="true" id="eff8c43b-c5db-40b8-ad2d-e5f18432baf7" name="Default" comment="Add Solution ShapeArea">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaFights/makeArrayConsecutive2/MakeArrayConsecutive2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,12 +42,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShapeArea.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShapeArea.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaFights/shapeArea/ShapeArea.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="22" />
+              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MakeArrayConsecutive2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JavaFights/makeArrayConsecutive2/MakeArrayConsecutive2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,6 +86,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/JavaFights/adjacentElementsProduct/AdjacentElementsProduct.java" />
         <option value="$PROJECT_DIR$/src/JavaFights/shapeArea/ShapeArea.java" />
+        <option value="$PROJECT_DIR$/src/JavaFights/makeArrayConsecutive2/MakeArrayConsecutive2.java" />
       </list>
     </option>
   </component>
@@ -168,6 +181,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="makeArrayConsecutive2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaInterview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaInterview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaFights" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="adjacentElementsProduct" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -184,7 +219,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.ShapeArea">
+  <component name="RunManager" selected="Application.MakeArrayConsecutive2">
     <configuration default="false" name="AdjacentElementsProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -213,6 +248,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="JavaFights.shapeArea.ShapeArea" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaInterview" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MakeArrayConsecutive2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="JavaFights.makeArrayConsecutive2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="JavaFights.makeArrayConsecutive2.MakeArrayConsecutive2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -429,14 +484,16 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.AdjacentElementsProduct" />
       <item index="1" class="java.lang.String" itemvalue="Application.ShapeArea" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MakeArrayConsecutive2" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.ShapeArea" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AdjacentElementsProduct" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.MakeArrayConsecutive2" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ShapeArea" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AdjacentElementsProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489909153306</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Solution ShapeArea">
+      <created>1489909937460</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1489909937460</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -508,7 +572,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Add Solution AdjacentElementsProduct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Solution AdjacentElementsProduct" />
+    <MESSAGE value="Add Solution ShapeArea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Solution ShapeArea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -546,8 +611,18 @@
     <entry file="file://$PROJECT_DIR$/src/JavaFights/shapeArea/ShapeArea.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="22" />
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaFights/makeArrayConsecutive2/MakeArrayConsecutive2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
